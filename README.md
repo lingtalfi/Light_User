@@ -39,6 +39,10 @@ Summary
 History Log
 =============
 
+- 1.1.1 -- 2019-07-18
+
+    - update docTools documentation, add links to source code for classes and methods
+    
 - 1.1.0 -- 2019-07-13
 
     - add WebsiteLightUser
