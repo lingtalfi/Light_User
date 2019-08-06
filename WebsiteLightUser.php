@@ -13,20 +13,21 @@ namespace Ling\Light_User;
  * - an email
  * - a password
  *
- * The following properties are attached to the website user:
+ * A website user is defined by the following properties:
  *
- * - avatar_url: the url of the avatar image (or null if there is no avatar for this user)
- * - email: the email of the user. This is also considered as an identifier (a unique string identifying a given user)
- * - pseudo: string, or null if the website user doesn't use a pseudo
+ * - identifier: string. A string that identifies the user uniquely amongst other users.
+ * - email: string|null. The email of the user, or null if it's not used.
+ *          Note: some applications use the same value for the email and the identifier, as an email
+ *          identifies a person uniquely.
+ * - avatar_url: string|null. The url of the avatar image (or null if there is no avatar for this user)
+ * - pseudo: string|null. The pseudo of the user.
  * - connect_time: timestamp (or false by default) of the moment when the user was first connected.
  *              This allows us to know exactly how long an user is connected at any time.
  * - last_refresh_time: timestamp of the moment when the user was last refreshed (or false by default).
- *
- *
- * Also, the user can be configured:
- *
- * - session_duration: the number of seconds to wait to turn a valid idle user into an invalid user
+ * - session_duration: int. The number of seconds to wait to turn a valid idle user into an invalid user
  *              The default is 300 (i.e. 5 minutes)
+ * - rights: array. The rights that this user has. See more about rights in the @page(user rights page).
+ * - extra: array. This array contains any other properties that the application wants to attach to the user.
  *
  *
  *
@@ -42,8 +43,14 @@ class WebsiteLightUser implements RefreshableLightUserInterface
 
 
     /**
-     * This property holds the email of the user.
+     * This property holds the identifier for this instance.
      * @var string
+     */
+    protected $identifier;
+
+    /**
+     * This property holds the email of the user.
+     * @var string|null
      */
     protected $email;
 
@@ -89,12 +96,19 @@ class WebsiteLightUser implements RefreshableLightUserInterface
      */
     protected $rights;
 
+    /**
+     * This property holds the extra for this instance.
+     * @var array
+     */
+    protected $extra;
+
 
     /**
      * Builds the WebsiteLightUser instance.
      */
     public function __construct()
     {
+        $this->identifier = null;
         $this->email = null;
         $this->avatar_url = null;
         $this->pseudo = null;
@@ -102,6 +116,7 @@ class WebsiteLightUser implements RefreshableLightUserInterface
         $this->last_refresh_time = false;
         $this->session_duration = 500;
         $this->rights = [];
+        $this->extra = [];
     }
 
 
@@ -121,8 +136,8 @@ class WebsiteLightUser implements RefreshableLightUserInterface
      */
     public function getIdentifier()
     {
-        if (null !== $this->email) {
-            return $this->email;
+        if (null !== $this->identifier) {
+            return $this->identifier;
         }
         return false;
     }
@@ -193,9 +208,20 @@ class WebsiteLightUser implements RefreshableLightUserInterface
 
 
 
+
     //--------------------------------------------
     // GETTERS / SETTERS
     //--------------------------------------------
+    /**
+     * Sets the identifier.
+     *
+     * @param string $identifier
+     */
+    public function setIdentifier(string $identifier)
+    {
+        $this->identifier = $identifier;
+    }
+
     /**
      * Returns the email of this instance.
      *
@@ -334,6 +360,26 @@ class WebsiteLightUser implements RefreshableLightUserInterface
     public function setRights(array $rights)
     {
         $this->rights = $rights;
+    }
+
+    /**
+     * Returns the extra of this instance.
+     *
+     * @return array
+     */
+    public function getExtra(): array
+    {
+        return $this->extra;
+    }
+
+    /**
+     * Sets the extra.
+     *
+     * @param array $extra
+     */
+    public function setExtra(array $extra)
+    {
+        $this->extra = $extra;
     }
 
 

@@ -46,7 +46,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::getEmail](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L204-L207)
+See the source code for method [WebsiteLightUser::getEmail](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L230-L233)
 
 
 See Also
@@ -54,5 +54,5 @@ See Also
 
 The [WebsiteLightUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser.md) class.
 
-Previous method: [disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/disconnect.md)<br>Next method: [setEmail](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setEmail.md)<br>
+Previous method: [setIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setIdentifier.md)<br>Next method: [setEmail](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setEmail.md)<br>
 
