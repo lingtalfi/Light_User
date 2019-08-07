@@ -44,6 +44,10 @@ Related
 History Log
 =============
 
+- 1.4.0 -- 2019-08-07
+
+    - update WebsiteLightUser->updateInfo method
+    
 - 1.3.0 -- 2019-08-07
 
     - update WebsiteLightUser, now has an id property

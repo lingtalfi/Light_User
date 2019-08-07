@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::setSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L368-L371)
+See the source code for method [WebsiteLightUser::setSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L403-L406)
 
 
 See Also

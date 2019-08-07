@@ -214,6 +214,41 @@ class WebsiteLightUser implements RefreshableLightUserInterface
         $this->last_refresh_time = false;
     }
 
+    /**
+     * Updates the user information.
+     * This method is just a shortcut method that saves you from calling the setter methods manually
+     * in the case where you have an array of user information you want to update the user with.
+     *
+     *
+     * Only the following info can be updated:
+     * - email
+     * - pseudo
+     * - avatar_url
+     * - rights
+     * - extra
+     *
+     *
+     * @param array $info
+     */
+    public function updateInfo(array $info)
+    {
+
+        if (array_key_exists("email", $info)) {
+            $this->setEmail($info['email']);
+        }
+        if (array_key_exists("pseudo", $info)) {
+            $this->setPseudo($info['pseudo']);
+        }
+        if (array_key_exists("avatar_url", $info)) {
+            $this->setAvatarUrl($info['avatar_url']);
+        }
+        if (array_key_exists("rights", $info)) {
+            $this->setRights($info['rights']);
+        }
+        if (array_key_exists("extra", $info)) {
+            $this->setExtra($info['extra']);
+        }
+    }
 
 
     //--------------------------------------------

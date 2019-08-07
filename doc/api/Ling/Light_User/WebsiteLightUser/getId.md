@@ -46,7 +46,7 @@ Returns int.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::getId](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L227-L230)
+See the source code for method [WebsiteLightUser::getId](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L262-L265)
 
 
 See Also
@@ -54,5 +54,5 @@ See Also
 
 The [WebsiteLightUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser.md) class.
 
-Previous method: [disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/disconnect.md)<br>Next method: [setId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setId.md)<br>
+Previous method: [updateInfo](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/updateInfo.md)<br>Next method: [setId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setId.md)<br>
 

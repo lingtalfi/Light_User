@@ -73,6 +73,7 @@ class <span class="pl-k">WebsiteLightUser</span> implements [RefreshableLightUse
     - public [refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/refresh.md)() : void
     - public [connect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/connect.md)() : void
     - public [disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/disconnect.md)() : void
+    - public [updateInfo](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/updateInfo.md)(array $info) : void
     - public [getId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getId.md)() : int
     - public [setId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setId.md)(int $id) : void
     - public [setIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setIdentifier.md)(string $identifier) : void
@@ -176,6 +177,7 @@ Methods
 - [WebsiteLightUser::refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/refresh.md) &ndash; Refreshes the user.
 - [WebsiteLightUser::connect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/connect.md) &ndash; Connects the user (i.e.
 - [WebsiteLightUser::disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/disconnect.md) &ndash; Disconnects the current user.
+- [WebsiteLightUser::updateInfo](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/updateInfo.md) &ndash; Updates the user information.
 - [WebsiteLightUser::getId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getId.md) &ndash; Returns the id of this instance.
 - [WebsiteLightUser::setId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setId.md) &ndash; Sets the id.
 - [WebsiteLightUser::setIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setIdentifier.md) &ndash; Sets the identifier.

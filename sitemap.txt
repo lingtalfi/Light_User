@@ -35,6 +35,7 @@ https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/Webs
 https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setPseudo.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setRights.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setSessionDuration.md
+https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/updateInfo.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/pages/conception-notes.md
