@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::setIdentifier](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L220-L223)
+See the source code for method [WebsiteLightUser::setIdentifier](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L248-L251)
 
 
 See Also
@@ -57,5 +57,5 @@ See Also
 
 The [WebsiteLightUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser.md) class.
 
-Previous method: [disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/disconnect.md)<br>Next method: [getEmail](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getEmail.md)<br>
+Previous method: [setId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setId.md)<br>Next method: [getEmail](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getEmail.md)<br>
 

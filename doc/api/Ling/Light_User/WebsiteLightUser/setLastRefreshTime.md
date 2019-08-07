@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::setLastRefreshTime](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L320-L323)
+See the source code for method [WebsiteLightUser::setLastRefreshTime](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L348-L351)
 
 
 See Also

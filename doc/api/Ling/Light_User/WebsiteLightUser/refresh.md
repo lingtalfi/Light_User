@@ -48,7 +48,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::refresh](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L171-L176)
+See the source code for method [WebsiteLightUser::refresh](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L179-L184)
 
 
 See Also

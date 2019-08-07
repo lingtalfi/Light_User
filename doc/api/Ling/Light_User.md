@@ -1,6 +1,6 @@
 Ling/Light_User
 ================
-2019-05-10 --> 2019-08-06
+2019-05-10 --> 2019-08-07
 
 
 
@@ -29,6 +29,8 @@ Table of contents
     - [WebsiteLightUser::refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/refresh.md) &ndash; Refreshes the user.
     - [WebsiteLightUser::connect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/connect.md) &ndash; Connects the user (i.e.
     - [WebsiteLightUser::disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/disconnect.md) &ndash; Disconnects the current user.
+    - [WebsiteLightUser::getId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getId.md) &ndash; Returns the id of this instance.
+    - [WebsiteLightUser::setId](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setId.md) &ndash; Sets the id.
     - [WebsiteLightUser::setIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setIdentifier.md) &ndash; Sets the identifier.
     - [WebsiteLightUser::getEmail](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getEmail.md) &ndash; Returns the email of this instance.
     - [WebsiteLightUser::setEmail](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setEmail.md) &ndash; Sets the email.

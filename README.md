@@ -44,6 +44,10 @@ Related
 History Log
 =============
 
+- 1.3.0 -- 2019-08-07
+
+    - update WebsiteLightUser, now has an id property
+    
 - 1.2.0 -- 2019-08-06
 
     - update WebsiteLightUser, now has an extra property, and a proper (i.e. not email) identifier
