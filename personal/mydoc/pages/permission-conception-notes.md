@@ -61,4 +61,8 @@ They can also create new profiles in the **lud_permission_group** table, and/or 
 
  
  
- 
+The root profile 
+----------------
+
+The name "root" is reserved for the root profile.
+The root profile has one implicit right: "*" (which is also reserved and means everything is allowed).  

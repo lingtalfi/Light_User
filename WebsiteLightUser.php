@@ -162,7 +162,7 @@ class WebsiteLightUser implements RefreshableLightUserInterface
      */
     public function hasRight(string $right): bool
     {
-        return array_key_exists($right, $this->rights);
+        return in_array('*', $this->rights, true) || in_array($right, $this->rights, true);
     }
 
     /**
