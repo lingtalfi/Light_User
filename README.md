@@ -45,6 +45,10 @@ Related
 History Log
 =============
 
+- 1.6.1 -- 2019-09-11
+
+    - added documentation notes
+    
 - 1.6.0 -- 2019-09-11
 
     - added root profile concept

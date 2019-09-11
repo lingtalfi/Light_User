@@ -37,7 +37,7 @@ For instance, "activate_coffee_machine", or "edit_post".
 
 By convention, a light plugin making use of "rights" will prefix all its rights with an identifier based on the plugin name.
 
-We recommend using the plugin name followed by a dash, followed by the "right" name.
+We recommend using the plugin name followed by a dot, followed by the "right" name.
 
 
 UPDATE: 2019-09-11.
@@ -51,8 +51,8 @@ For more information, see the [permission conception notes](https://github.com/l
 
 ### Rights and namespaces
 
-UPDATE: 2019-09-11: This section is now deprecated as now we use permissions, which describe a "right" in such a specific manner
-that there is no need for namespaces.
+UPDATE: 2019-09-11: This section is now deprecated/frozen as now we use permissions, which describe a "right" in such a specific manner
+that there might be no need for namespaces anymore.
 
  
 By convention, a plugin author organizes her rights in namespaces, and a dot indicates that the left part (of the dot) contains
