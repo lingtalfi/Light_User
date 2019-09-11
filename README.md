@@ -45,6 +45,10 @@ Related
 History Log
 =============
 
+- 1.5.1 -- 2019-09-11
+
+    - added permission careless implementation
+    
 - 1.5.0 -- 2019-09-11
 
     - added permission concept

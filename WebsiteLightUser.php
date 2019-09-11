@@ -104,6 +104,12 @@ class WebsiteLightUser implements RefreshableLightUserInterface
     protected $rights;
 
     /**
+     * This property holds the profiles for this user.
+     * @var array
+     */
+    protected $profiles;
+
+    /**
      * This property holds the extra for this instance.
      * @var array
      */
@@ -123,6 +129,7 @@ class WebsiteLightUser implements RefreshableLightUserInterface
         $this->connect_time = false;
         $this->last_refresh_time = false;
         $this->session_duration = 500;
+        $this->profiles = [];
         $this->rights = [];
         $this->extra = [];
     }
@@ -155,22 +162,7 @@ class WebsiteLightUser implements RefreshableLightUserInterface
      */
     public function hasRight(string $right): bool
     {
-
-        if (in_array('*', $this->rights, true)) {
-            return true;
-        }
-
-        foreach ($this->rights as $r) {
-            if ($right === $r) {
-                return true;
-            } elseif ('.*' === substr($r, -2)) {
-                $namespace = substr($r, 0, -2);
-                if (0 === strpos($right . ".", $namespace)) {
-                    return true;
-                }
-            }
-        }
-        return false;
+        return array_key_exists($right, $this->rights);
     }
 
     /**
@@ -443,6 +435,26 @@ class WebsiteLightUser implements RefreshableLightUserInterface
     public function setExtra(array $extra)
     {
         $this->extra = $extra;
+    }
+
+    /**
+     * Returns the profiles of this instance.
+     *
+     * @return array
+     */
+    public function getProfiles(): array
+    {
+        return $this->profiles;
+    }
+
+    /**
+     * Sets the profiles.
+     *
+     * @param array $profiles
+     */
+    public function setProfiles(array $profiles)
+    {
+        $this->profiles = $profiles;
     }
 
 

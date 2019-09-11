@@ -63,6 +63,7 @@ class <span class="pl-k">WebsiteLightUser</span> implements [RefreshableLightUse
     - protected int|false [$last_refresh_time](#property-last_refresh_time) ;
     - protected int [$session_duration](#property-session_duration) ;
     - protected array [$rights](#property-rights) ;
+    - protected array [$profiles](#property-profiles) ;
     - protected array [$extra](#property-extra) ;
 
 - Methods
@@ -93,6 +94,8 @@ class <span class="pl-k">WebsiteLightUser</span> implements [RefreshableLightUse
     - public [setRights](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setRights.md)(array $rights) : void
     - public [getExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getExtra.md)() : array
     - public [setExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setExtra.md)(array $extra) : void
+    - public [getProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getProfiles.md)() : array
+    - public [setProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setProfiles.md)(array $profiles) : void
 
 }
 
@@ -159,6 +162,12 @@ Properties
     
     
 
+- <span id="property-profiles"><b>profiles</b></span>
+
+    This property holds the profiles for this user.
+    
+    
+
 - <span id="property-extra"><b>extra</b></span>
 
     This property holds the extra for this instance.
@@ -197,6 +206,8 @@ Methods
 - [WebsiteLightUser::setRights](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setRights.md) &ndash; Sets the rights.
 - [WebsiteLightUser::getExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getExtra.md) &ndash; Returns the extra of this instance.
 - [WebsiteLightUser::setExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setExtra.md) &ndash; Sets the extra.
+- [WebsiteLightUser::getProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getProfiles.md) &ndash; Returns the profiles of this instance.
+- [WebsiteLightUser::setProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setProfiles.md) &ndash; Sets the profiles.
 
 
 
