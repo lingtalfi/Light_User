@@ -40,3 +40,4 @@ https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/Webs
 https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/pages/conception-notes.md
 https://github.com/lingtalfi/Light_User/blob/master/doc/pages/conception.md
+https://github.com/lingtalfi/Light_User/blob/master/doc/pages/permission-conception-notes.md

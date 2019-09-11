@@ -30,6 +30,7 @@ Summary
 - Pages
     - [Conception notes](https://github.com/lingtalfi/Light_User/blob/master/doc/pages/conception-notes.md)
     - [Conception](https://github.com/lingtalfi/Light_User/blob/master/doc/pages/conception.md)
+    - [Permission conception notes](https://github.com/lingtalfi/Light_User/blob/master/doc/pages/permission-conception-notes.md)
 - [Related](#related)
 
 
@@ -44,6 +45,10 @@ Related
 History Log
 =============
 
+- 1.5.0 -- 2019-09-11
+
+    - added permission concept
+    
 - 1.4.0 -- 2019-08-07
 
     - update WebsiteLightUser->updateInfo method
