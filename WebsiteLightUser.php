@@ -104,12 +104,6 @@ class WebsiteLightUser implements RefreshableLightUserInterface
     protected $rights;
 
     /**
-     * This property holds the profiles for this user.
-     * @var array
-     */
-    protected $profiles;
-
-    /**
      * This property holds the extra for this instance.
      * @var array
      */
@@ -129,7 +123,6 @@ class WebsiteLightUser implements RefreshableLightUserInterface
         $this->connect_time = false;
         $this->last_refresh_time = false;
         $this->session_duration = 500;
-        $this->profiles = [];
         $this->rights = [];
         $this->extra = [];
     }
@@ -436,26 +429,5 @@ class WebsiteLightUser implements RefreshableLightUserInterface
     {
         $this->extra = $extra;
     }
-
-    /**
-     * Returns the profiles of this instance.
-     *
-     * @return array
-     */
-    public function getProfiles(): array
-    {
-        return $this->profiles;
-    }
-
-    /**
-     * Sets the profiles.
-     *
-     * @param array $profiles
-     */
-    public function setProfiles(array $profiles)
-    {
-        $this->profiles = $profiles;
-    }
-
 
 }

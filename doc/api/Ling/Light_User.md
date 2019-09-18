@@ -1,6 +1,6 @@
 Ling/Light_User
 ================
-2019-05-10 --> 2019-09-11
+2019-05-10 --> 2019-09-18
 
 
 
@@ -49,8 +49,6 @@ Table of contents
     - [WebsiteLightUser::setRights](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setRights.md) &ndash; Sets the rights.
     - [WebsiteLightUser::getExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getExtra.md) &ndash; Returns the extra of this instance.
     - [WebsiteLightUser::setExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setExtra.md) &ndash; Sets the extra.
-    - [WebsiteLightUser::getProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getProfiles.md) &ndash; Returns the profiles of this instance.
-    - [WebsiteLightUser::setProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/setProfiles.md) &ndash; Sets the profiles.
 
 
 

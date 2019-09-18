@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [WebsiteLightUser::setExtra](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L435-L438)
+See the source code for method [WebsiteLightUser::setExtra](https://github.com/lingtalfi/Light_User/blob/master/WebsiteLightUser.php#L428-L431)
 
 
 See Also
@@ -57,5 +57,5 @@ See Also
 
 The [WebsiteLightUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser.md) class.
 
-Previous method: [getExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getExtra.md)<br>Next method: [getProfiles](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getProfiles.md)<br>
+Previous method: [getExtra](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/WebsiteLightUser/getExtra.md)<br>
 

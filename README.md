@@ -45,6 +45,10 @@ Related
 History Log
 =============
 
+- 1.6.2 -- 2019-09-18
+
+    - remove WebsiteLightUser->profiles property
+    
 - 1.6.1 -- 2019-09-11
 
     - added documentation notes

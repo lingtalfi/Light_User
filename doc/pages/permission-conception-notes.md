@@ -52,6 +52,7 @@ In terms of database, we have this:
 - lud_permission
  
  
+![Light user database schema](https://lingtalfi.com/img/universe/Light_UserDatabase/light-user-database.png) 
  
 In terms of plugins design, during the initialization phase (see the [initializer service](https://github.com/lingtalfi/Light_Initializer/) for more details)
 the plugins add their rights to the **lud_permission** table if so they want.
