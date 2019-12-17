@@ -1,6 +1,6 @@
 Light_User
 ===========
-2019-05-10
+2019-05-10 -> 2019-12-17
 
 
 
@@ -45,6 +45,10 @@ Related
 History Log
 =============
 
+- 1.6.3 -- 2019-12-17
+
+    - update permission conception notes document, add precision about naming convention
+    
 - 1.6.2 -- 2019-09-18
 
     - remove WebsiteLightUser->profiles property
