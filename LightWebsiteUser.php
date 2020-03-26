@@ -5,7 +5,7 @@ namespace Ling\Light_User;
 
 
 /**
- * The WebsiteLightUser class.
+ * The LightWebsiteUser class.
  *
  * This is the first website user, and a typical one.
  *
@@ -39,7 +39,7 @@ namespace Ling\Light_User;
  *
  *
  */
-class WebsiteLightUser implements RefreshableLightUserInterface
+class LightWebsiteUser implements RefreshableLightUserInterface
 {
 
 
@@ -111,7 +111,7 @@ class WebsiteLightUser implements RefreshableLightUserInterface
 
 
     /**
-     * Builds the WebsiteLightUser instance.
+     * Builds the LightWebsiteUser instance.
      */
     public function __construct()
     {

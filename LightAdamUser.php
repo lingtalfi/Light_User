@@ -5,13 +5,13 @@ namespace Ling\Light_User;
 
 
 /**
- * The AdamLightUser class.
+ * The LightAdamUser class.
  *
  * Adam is the first light user.
  * He is always valid, he has all the rights, and his identifier is adam.
  *
  */
-class AdamLightUser implements LightUserInterface
+class LightAdamUser implements LightUserInterface
 {
 
 
