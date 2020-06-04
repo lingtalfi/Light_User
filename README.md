@@ -1,6 +1,6 @@
 Light_User
 ===========
-2019-05-10 -> 2020-03-26
+2019-05-10 -> 2020-06-04
 
 
 
@@ -44,6 +44,10 @@ Related
 
 History Log
 =============
+
+- 1.6.6 -- 2020-06-04
+
+    - routine commit (check everything is up to date) 
 
 - 1.6.5 -- 2020-03-26
 
