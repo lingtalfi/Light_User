@@ -1,6 +1,6 @@
 Light_User
 ===========
-2019-05-10 -> 2020-06-04
+2019-05-10 -> 2020-06-08
 
 
 
@@ -45,6 +45,10 @@ Related
 History Log
 =============
 
+- 1.7.0 -- 2020-06-08
+
+    - update LightWebsiteUser concept, the email and the identifier are two different concepts now
+    
 - 1.6.6 -- 2020-06-04
 
     - routine commit (check everything is up to date) 
