@@ -1,6 +1,6 @@
 Ling/Light_User
 ================
-2019-05-10 --> 2021-05-31
+2019-05-10 --> 2021-06-14
 
 
 
@@ -12,6 +12,18 @@ Table of contents
     - [LightAdamUser::isValid](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightAdamUser/isValid.md) &ndash; Returns whether the user is valid.
     - [LightAdamUser::getIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightAdamUser/getIdentifier.md) &ndash; or false if the user is not valid.
     - [LightAdamUser::hasRight](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightAdamUser/hasRight.md) &ndash; Returns whether the user has the given right.
+- [LightOpenUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser.md) &ndash; The LightOpenUser class.
+    - [LightOpenUser::__construct](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/__construct.md) &ndash; Builds the LightWebsiteUser instance.
+    - [LightOpenUser::refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/refresh.md) &ndash; Refreshes the user.
+    - [LightOpenUser::isValid](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/isValid.md) &ndash; Returns whether the user is valid.
+    - [LightOpenUser::hasRight](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/hasRight.md) &ndash; Returns whether the user has the given right.
+    - [LightOpenUser::getIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getIdentifier.md) &ndash; or false if the user is not valid.
+    - [LightOpenUser::connect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/connect.md) &ndash; Connects the user (i.e.
+    - [LightOpenUser::disconnect](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/disconnect.md) &ndash; Disconnects the current user.
+    - [LightOpenUser::getProps](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getProps.md) &ndash; Returns the properties attached to this instance.
+    - [LightOpenUser::setProps](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/setProps.md) &ndash; Sets the props.
+    - [LightOpenUser::addProp](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/addProp.md) &ndash; Adds a property to this instance, and returns the instance.
+    - [LightOpenUser::getProp](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getProp.md) &ndash; Returns the value of the given property, or the default value if that property is not found.
 - [LightUserInterface](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightUserInterface.md) &ndash; The LightUserInterface interface.
     - [LightUserInterface::isValid](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightUserInterface/isValid.md) &ndash; Returns whether the user is valid.
     - [LightUserInterface::getIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightUserInterface/getIdentifier.md) &ndash; or false if the user is not valid.
