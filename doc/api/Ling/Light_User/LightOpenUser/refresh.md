@@ -56,5 +56,5 @@ See Also
 
 The [LightOpenUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser.md) class.
 
-Previous method: [__construct](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/__construct.md)<br>Next method: [isValid](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/isValid.md)<br>
+Previous method: [__construct](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/__construct.md)<br>Next method: [setSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/setSessionDuration.md)<br>
 

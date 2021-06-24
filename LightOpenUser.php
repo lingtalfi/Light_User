@@ -72,6 +72,26 @@ class LightOpenUser implements RefreshableLightUserInterface
         }
     }
 
+    /**
+     * @implementation
+     */
+    public function setSessionDuration(int $durationInSeconds)
+    {
+        $this->session_duration = $durationInSeconds;
+    }
+
+    /**
+     * @implementation
+     */
+    public function getSessionDuration(): int
+    {
+        return $this->session_duration;
+    }
+
+
+
+
+
 
     //--------------------------------------------
     // LightUserInterface

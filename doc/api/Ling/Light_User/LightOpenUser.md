@@ -4,7 +4,7 @@
 
 The LightOpenUser class
 ================
-2019-05-10 --> 2021-06-14
+2019-05-10 --> 2021-06-24
 
 
 
@@ -37,6 +37,8 @@ class <span class="pl-k">LightOpenUser</span> implements [RefreshableLightUserIn
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/__construct.md)() : void
     - public [refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/refresh.md)() : void
+    - public [setSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/setSessionDuration.md)(int $durationInSeconds) : mixed
+    - public [getSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getSessionDuration.md)() : int
     - public [isValid](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/isValid.md)() : bool
     - public [hasRight](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/hasRight.md)(string $right) : bool
     - public [getIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getIdentifier.md)() : string | false
@@ -88,6 +90,8 @@ Methods
 
 - [LightOpenUser::__construct](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/__construct.md) &ndash; Builds the LightWebsiteUser instance.
 - [LightOpenUser::refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/refresh.md) &ndash; Refreshes the user.
+- [LightOpenUser::setSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/setSessionDuration.md) &ndash; Sets the duration of this user' session in seconds.
+- [LightOpenUser::getSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getSessionDuration.md) &ndash; Returns the duration of this user' session in seconds.
 - [LightOpenUser::isValid](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/isValid.md) &ndash; Returns whether the user is valid.
 - [LightOpenUser::hasRight](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/hasRight.md) &ndash; Returns whether the user has the given right.
 - [LightOpenUser::getIdentifier](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getIdentifier.md) &ndash; or false if the user is not valid.

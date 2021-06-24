@@ -1,6 +1,6 @@
 Light_User
 ===========
-2019-05-10 -> 2021-06-14
+2019-05-10 -> 2021-06-24
 
 
 
@@ -50,6 +50,10 @@ Related
 History Log
 =============
 
+- 1.8.0 -- 2021-06-24
+
+    - add RefreshableLightUserInterface accessors for session duration
+  
 - 1.7.5 -- 2021-06-14
 
     - add LightOpenUser class

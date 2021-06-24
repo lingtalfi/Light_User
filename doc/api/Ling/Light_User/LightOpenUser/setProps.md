@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightOpenUser::setProps](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L157-L160)
+See the source code for method [LightOpenUser::setProps](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L177-L180)
 
 
 See Also

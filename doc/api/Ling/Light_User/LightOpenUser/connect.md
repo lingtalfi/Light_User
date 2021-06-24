@@ -48,7 +48,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightOpenUser::connect](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L121-L125)
+See the source code for method [LightOpenUser::connect](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L141-L145)
 
 
 See Also

@@ -53,7 +53,7 @@ Returns [LightOpenUser](https://github.com/lingtalfi/Light_User/blob/master/doc/
 
 Source Code
 ===========
-See the source code for method [LightOpenUser::addProp](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L169-L173)
+See the source code for method [LightOpenUser::addProp](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L189-L193)
 
 
 See Also

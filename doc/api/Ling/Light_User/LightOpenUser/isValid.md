@@ -46,7 +46,7 @@ Returns bool.
 
 Source Code
 ===========
-See the source code for method [LightOpenUser::isValid](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L82-L88)
+See the source code for method [LightOpenUser::isValid](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L102-L108)
 
 
 See Also
@@ -54,5 +54,5 @@ See Also
 
 The [LightOpenUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser.md) class.
 
-Previous method: [refresh](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/refresh.md)<br>Next method: [hasRight](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/hasRight.md)<br>
+Previous method: [getSessionDuration](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/getSessionDuration.md)<br>Next method: [hasRight](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightOpenUser/hasRight.md)<br>
 

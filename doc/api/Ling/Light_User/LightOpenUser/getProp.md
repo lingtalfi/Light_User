@@ -53,7 +53,7 @@ Returns mixed.
 
 Source Code
 ===========
-See the source code for method [LightOpenUser::getProp](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L182-L185)
+See the source code for method [LightOpenUser::getProp](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L202-L205)
 
 
 See Also

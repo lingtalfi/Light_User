@@ -46,7 +46,7 @@ Returns array.
 
 Source Code
 ===========
-See the source code for method [LightOpenUser::getProps](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L147-L150)
+See the source code for method [LightOpenUser::getProps](https://github.com/lingtalfi/Light_User/blob/master/LightOpenUser.php#L167-L170)
 
 
 See Also
